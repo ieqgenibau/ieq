@@ -49,7 +49,12 @@ main{
     position: relative;
     
 }
-
+.nav-bar {
+  position: fixed;
+  
+  width: 100%;
+  z-index: 1000;
+}
 .nav-bar a{
     color: white;
     text-decoration: none;
@@ -275,7 +280,7 @@ nav{
         position:fixed;
         left: 0;  
         bottom: 0;      
-        top: 34vh;
+        top: 24vh;
         right: 0;
         width: 100%;
         background: #CED6FB;
@@ -286,7 +291,7 @@ nav{
         transition: transform 0.3s ease-in;
         z-index: 20; 
         overflow-y: auto;          
-        overscroll-behavior-y: contain;
+        
         
     }
     .nav-list li{
