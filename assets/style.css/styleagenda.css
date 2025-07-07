@@ -39,6 +39,7 @@ body{
     justify-content:space-between;
     overflow-x: hidden;
     height: 100%;    
+    position: fixed;
       
 }
 main{
@@ -129,6 +130,7 @@ img.logo {
     width: 100%;
     height: 9vh;
     background-size: cover;
+    position: relative;
  }
 
 .social-icones{
@@ -280,7 +282,7 @@ nav{
         position:fixed;
         left: 0;  
         bottom: 0;      
-        top: 24vh;
+        top: 34vh;
         right: 0;
         width: 100%;
         background: #CED6FB;
